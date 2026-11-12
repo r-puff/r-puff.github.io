@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rowan Stream Setup is a personal local OBS Studio dock for Twitch and YouTube livestreams.">
+<title>Rowan Stream Setup</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#13151c;color:#f4f5fa}
+*{box-sizing:border-box}body{max-width:780px;margin:0 auto;padding:3rem 1.5rem;line-height:1.7}
+a{color:#aabffc}a:focus-visible{outline:2px solid #aabffc;outline-offset:4px}
+header{border-bottom:1px solid #333747;padding-bottom:1.5rem}h1{font-size:clamp(2rem,5vw,3rem);margin:.2rem 0;line-height:1.15}
+h2{font-size:1.25rem;margin-top:2rem}p,li{color:#d7d9e5}.eyebrow{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:#bdc9e9}
+footer{border-top:1px solid #333747;margin-top:3rem;padding-top:1rem;font-size:.92rem}
+</style>
+</head>
+<body>
+<header><p class="eyebrow">Personal OBS Studio integration</p><h1>Rowan Stream Setup</h1>
+<p>A free, locally operated OBS Studio browser dock for preparing and controlling livestreams on Twitch and YouTube.</p></header>
+<main>
+<h2>About this application</h2>
+<p>Rowan Stream Setup lets its user save stream presets, edit Twitch and YouTube titles and descriptions, select YouTube playlists and thumbnails, preview changes, and prepare livestreams. With explicit confirmation, it can request OBS Studio and Multiple RTMP to start or stop both streaming outputs.</p>
+<h2>Why it requests YouTube access</h2>
+<p>The application uses <a href="https://developers.google.com/youtube/v3">YouTube API Services</a> to view the authorized account's playlists and broadcast information, and to create or update livestream metadata, thumbnail, playlist assignments, and settings when requested by its user. Google OAuth provides permission for these actions.</p>
+<p>The application runs on the user's own computer. This site is informational, not the application's streaming interface. OBS credentials, OAuth tokens, stream keys, and saved stream settings are not published here. This project is intended for personal use, not public account registration.</p>
+<h2>Privacy and terms</h2>
+<p>See the <a href="/privacy.html">Rowan Stream Setup Privacy Policy</a> for details about access, local storage, and how to revoke Google permissions.</p>
+<p>Use of the YouTube integration is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's own handling of account data is explained in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+</main>
+<footer><p><a href="/privacy.html">Privacy Policy</a> · <a href="https://github.com/r-puff/r-puff.github.io/issues">Contact via GitHub Issues</a></p></footer>
+</body>
+</html>
